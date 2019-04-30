@@ -7,19 +7,15 @@ package my.practice.projects;
 /* fix it for upper case */
 public class VowelsConsonants {
 
-    private static void checkVowels ( char ch)
-    {
-        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )
-        {
+    private static void checkVowels(char ch) {
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
             System.out.println("it is a vowel" + ch);
-        }
-        else
+        } else
             System.out.println("it is not a  vowel" + ch);
     }
 
-    public static void main (String[] args)
-    {
-checkVowels('A');
+    public static void main(String[] args) {
+        checkVowels('A');
     }
 
 }
