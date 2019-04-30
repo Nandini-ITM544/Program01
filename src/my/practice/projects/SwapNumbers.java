@@ -5,20 +5,27 @@ package my.practice.projects;
  */
 public class SwapNumbers {
 
-    public static void swapNumbers(int a, int b) {
+    private static void swapNumbers(int a, int b) {
+
+        System.out.println("a is" + a);
+
+
+
+        System.out.println("b is" + b);
+
         int temp = a;
 
         a = b;
 
         b = temp;
 
-        System.out.println("swapped numbers are" + "a:" + a + )
+        System.out.println("swapped numbers are" + " " +  "a:" + a + " " +  "b:" + b);
 
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-        System.out.println("swapped numbers are"  swapNumbers(10,20);
+        swapNumbers(26, 37);
     }
 
 }
