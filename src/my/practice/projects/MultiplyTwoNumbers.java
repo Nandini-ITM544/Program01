@@ -7,9 +7,7 @@ public class MultiplyTwoNumbers {
 
     private static float multiply(float first, float second) {
 
-        float product = first * second;
-
-        return product;
+        return first * second;
 
 
     }
