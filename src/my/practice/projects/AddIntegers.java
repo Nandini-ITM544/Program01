@@ -14,6 +14,6 @@ public class AddIntegers {
 
     public static void main (String args[])
     {
-        System.out.println("the sum of the two numbers entered are "  + add(45,56));
+        System.out.println("the sum of the two numbers entered are "  + add(45,59));
     }
 }
